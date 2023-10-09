@@ -1,0 +1,20 @@
+/* Estilo para el cuerpo de la página */
+body {
+    background-color: #0c0c0c; /* Fondo gris */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Usa el 100% de la altura de la ventana del navegador */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+/* Estilo para el contenedor de la imagen */
+.contenedor {
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+/* Estilo para la imagen */
+img {
+    max-width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+}
