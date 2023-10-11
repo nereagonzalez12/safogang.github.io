@@ -1,8 +1,15 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(22, 22, 22);
-    overflow: hidden;
+/* Estilo para el cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Color de fondo opcional */
+}
 
+/* Estilo para la imagen "desktop" */
+#desktop {
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    max-width: 100%; /* Asegura que la imagen no se extienda más allá del ancho del dispositivo */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
 }
