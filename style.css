@@ -1,4 +1,14 @@
+
+@media screen and (max-width: 768px) {
+    /* Estilos específicos para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
+}
 /* Estilo para el cuerpo de la página */
+.head{
+    background-color: black;
+    width: 100px;
+    height: 50px;
+}
+
 body {
     
     background-image: url('fondo.png'); /* Ruta a tu imagen de fondo */
