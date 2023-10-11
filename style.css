@@ -1,20 +1,156 @@
 /* Estilo para el cuerpo de la página */
 body {
-    background-color: #0c0c0c; /* Fondo gris */
+    
+    background-image: url('fondo.png'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Escala la imagen para cubrir todo el fondo */
+    background-attachment: fixed; /* Mantiene la imagen fija */
+    background-position: center; /* Centra la imagen */
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100vh; /* Usa el 100% de la altura de la ventana del navegador */
-    margin: 0; /* Elimina el margen predeterminado */
+    justify-content: center;
+    overflow: hidden;
+
+  }
+
+  h1{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+
+    
+    left: 400px;
+    top:0px;
+    margin-bottom: 20px;
+    color: #FFF;
+    border-color: 10px solid black;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 48px;
+    font-style: normal;
+    line-height: normal;
+
+    -webkit-text-stroke: 2px rgb(255, 255, 255); /* Grosor del borde y color */
+    overflow: hidden;
+  }
+
+.rectangulo{
+    width: 1174px;
+    height: 786px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    margin-top: 5%;
+
+    border-radius: 50px;
+    border: 3px solid rgba(244, 244, 244, 0.60);
+    background: linear-gradient(145deg, rgba(244, 244, 244, 0.40) -4.23%, rgba(244, 244, 244, 0.20) 102.58%);
+    backdrop-filter: blur(10px);
+
+    
 }
 
-/* Estilo para el contenedor de la imagen */
-.contenedor {
-    text-align: center; /* Centra el contenido horizontalmente */
+.imagenRectangulos{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
 }
 
-/* Estilo para la imagen */
-img {
-    max-width: 100%; /* Ajusta el ancho de la imagen al contenedor */
-    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+.imagenRectangulo img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
+}
+
+.panelRedes{
+    width: 50px;
+    height: 390px;  
+
+    position: absolute;
+
+    top: 280px;
+    left: 0px;
+    border-radius: 0px 50px 50px 0px;
+    border: 3px solid rgba(244, 244, 244, 0.60);
+    border-left: 0px;
+    background: linear-gradient(145deg, rgba(244, 244, 244, 0.40) -4.23%, rgba(244, 244, 244, 0.20) 102.58%);
+    
+}
+
+
+#tiktok{
+    position: absolute;
+    left: 13px;
+    top: 90px;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+#tiktok:hover{
+    transform: scale(1.2); /* Zoom 20% más grande */
+    filter: grayscale(100%); /* Cambio a escala de grises (100% es completamente gris) */
+    position: relative;
+    z-index: 1;
+
+}
+
+#discord{
+    position: absolute;
+    left: 13px;
+    top: 140px;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+#discord:hover{
+    transform: scale(1.2); /* Zoom 20% más grande */
+    filter: grayscale(100%); /* Cambio a escala de grises (100% es completamente gris) */
+    position: relative;
+    z-index: 1;
+}
+
+#youtube{
+    position: absolute;
+    left: 13px;
+    top: 190px;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+#youtube:hover{
+    transform: scale(1.2); /* Zoom 20% más grande */
+    filter: grayscale(100%); /* Cambio a escala de grises (100% es completamente gris) */
+    position: relative;
+    z-index: 1;
+}
+
+#instagram{
+    position: absolute;
+    left: 13px;
+    top: 240px;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+#instagram:hover{
+    transform: scale(1.2); /* Zoom 20% más grande */
+    filter: grayscale(100%); /* Cambio a escala de grises (100% es completamente gris) */
+    position: relative;
+    z-index: 1;
+}
+
+#cofres{
+    position: absolute;
+    left: 13px;
+    top: 300px;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+#cofres:hover{
+    transform: scale(1.2); /* Zoom 20% más grande */
+    filter: grayscale(100%); /* Cambio a escala de grises (100% es completamente gris) */
+    position: relative;
+    z-index: 1;
 }
